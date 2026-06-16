@@ -1,0 +1,34 @@
+.work {
+    height: auto;
+    background: rgb(2, 2, 29);
+    padding: 50px 20px;
+
+
+    h2 {
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        font-size: 60px;
+
+        @include tabletmijin{
+            font-size: 40px;
+        }
+
+    }
+
+    .carousel-inner {
+       
+
+        
+
+        .carousel-item {
+            width: 100% !important;
+            height: 100% !important;
+            img {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+
+}
